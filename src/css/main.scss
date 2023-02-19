@@ -1,0 +1,16 @@
+@use 'reset';
+@use 'theme';
+
+body {
+    background-color: var(--background-color);
+    color: var(--primary-color);
+}
+
+::selection, ::-moz-selection {
+    background-color: var(--selection-color);
+}
+
+.app {
+    background-color: var(--container-color);
+    margin: 1rem;
+}
